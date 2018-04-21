@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Frinder</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-image: url('http://www.glenaeon.nsw.edu.au/newsletter/Newsletter/NL1MAY17-GRAPHICDESIGNER-TREE.jpg');
+            background-color: rgba(60, 155, 57, .5);
+
+            background-position-x: right;
+            background-position-y: top;
+            background-size: 1200px;
+            background-repeat: space;
+            background-attachment: fixed;
+            /* background-clip:padding-box */
+        }
+
+        #submit {
+            text-align: center;
+            margin-bottom: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            margin-left: auto;
+        }
+
+        .q {
+            margin-left: 300px;
+        }
+        #bestphoto{
+            height: 500px;
+            width: 450px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Survery Questions</h1>
+        </div>
+        <hr>
+        <div class="row">
+            <h2>
+                <strong>About you</strong>
+            </h2>
+        </div>
+
+        <div class="row">
+            <h4>Name (Required)</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <input id="name" class="form-control
+                " type="text" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <h4>Add Photo (Required)</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-10">
+                <input id="photo" class="form-control" type="text" required>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+
+        <div class="row">
+            <h2>Question 1</h2>
+        </div>
+        <div class="row">
+            <h4>You mind is always buzing with unexplored ideas and plans</h4>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-3">
+                
+                <select type="text" data-placeholder="" id="q1" class="form-control">
+                    <option value=""></option>
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Question 2</h2>
+        </div>
+        <div class="row">
+            <h4>You mind is always buzing with unexplored ideas and plans</h4>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-3">
+                
+                <select type="text" data-placeholder="" id="q2" class="form-control">
+                    <option value=""></option>
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Question 3</h2>
+        </div>
+        <div class="row">
+            <h4>You rely more on your experience than you imagination</h4>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-3">
+                
+                <select type="text" data-placeholder="" id="q3" class="form-control">
+                    <option value=""></option>
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Question 4</h2>
+        </div>
+        <div class="row">
+            <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-3">
+                
+                <select type="text" data-placeholder="" id="q4" class="form-control">
+                    <option value=""></option>
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Question 5</h2>
+        </div>
+        <div class="row">
+            <h4>You rarely do something just out of sheer curiosity.</h4>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-3">
+                
+                <select type="text" data-placeholder="" id="q5" class="form-control">
+                    <option value=""></option>
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Question 6</h2>
+        </div>
+        <div class="row">
+            <h4>People can rarely upset you.</h4>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-3">
+                
+                <select type="text" data-placeholder="" id="q6" class="form-control">
+                    <option value=""></option>
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Question 7</h2>
+        </div>
+        <div class="row">
+            <h4>It is often difficult for you to relate to other people’s feelings.</h4>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-3">
+                
+                <select type="text" data-placeholder="" id="q7" class="form-control">
+                    <option value=""></option>
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Question 8</h2>
+        </div>
+        <div class="row">
+            <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-3">
+                
+                <select type="text" data-placeholder="" id="q8" class="form-control">
+                    <option value=""></option>
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Question 9</h2>
+        </div>
+        <div class="row">
+            <h4>You rarely get carried away by fantasies and ideas.</h4>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-3">
+                
+                <select type="text" data-placeholder="" id="q9" class="form-control">
+                    <option value=""></option>
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Question 10</h2>
+        </div>
+        <div class="row">
+            <h4>You feel more energetic after spending time with a group of people.</h4>
+        </div>
+
+        <div class="row">
+            <div class="form-group col-md-3">
+                
+                <select type="text" data-placeholder="" id="q10" class="form-control">
+                    <option value=""></option>
+                    <option value="1">1 (strongly agree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (strongly disagree)</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <div class="row">
+                <button class="col-md-4 btn btn-primary" id="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <h4 class="modal-title">Introducing...</h4>
+                </div>
+                <div class="modal-body">
+                    <h4 id="bestname"></h4>
+                    <img id="bestphoto" src="photo.jpg">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <a href="/api/friends">API Friends List</a> |
+            <a href="https://eyeman2.github.io/friendfinder/">Github</a>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<script type="text/javascript">
+    $("#submit").on('click', function (event) {
+        event.preventDefault();
+
+        function validate() {
+            var isValid = true;
+            $(".form-control").each(function () {
+                if ($(this).val() === "") {
+                    isValid = false;
+
+                }
+                
+            })
+            return isValid;
+        }
+
+        if (validate()) {
+            var addFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                score: [
+                    $('#q1').val(),
+                    $('#q2').val(),
+                    $('#q3').val(),
+                    $('#q4').val(),
+                    $('#q5').val(),
+                    $('#q6').val(),
+                    $('#q7').val(),
+                    $('#q8').val(),
+                    $('#q9').val(),
+                    $('#q10').val(),
+                ]
+            };
+
+            $.post('/api/friends', addFriend, function (data) {
+                $('#bestname').text(data.name);
+                $('#bestphoto').attr('src', data.photo);
+
+                $('#myModal').modal('toggle');
+            });
+        }
+        else {
+            alert("Please complete all Questions")
+        };
+    })
+</script>
